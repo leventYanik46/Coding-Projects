@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cash Register</title>
+        <link rel='stylesheets' href='styles.css'/>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id='container'>
+            <h2>Cash Register</h2>
+                       
+            
+            <div id='register-screen'><h3 id='price'></h3></div>
+            
+            
+            <label for='cash'>
+                <input id='cash' placeholder='enter cash provided'></input>
+            </label>
+            <fieldset id='input-underline'></fieldset>
+            
+            <div id='change-due'></div>
+            
+            <fieldset id='register-divider'>
+                <div class='row'>
+                    <button class="num" id='button-1'>1</button>
+                    <button class="num" id='button-2'>2</button>
+                    <button class="num" id='button-3'>3</button>
+                    <button class='btn' id='delete-btn'>delete</button>
+
+                </div>
+                <div class='row'>
+                    <button class="num" id='button-4'>4</button>
+                    <button class="num" id='button-5'>5</button>
+                    <button class="num" id='button-6'>6</button>
+                    <button class='btn' id='clear-btn'>clear</button>
+                </div>
+                <div class='row'>
+                    <button class="num" id='button-7'>7</button>
+                    <button class="num" id='button-8'>8</button>
+                    <button class="num" id='button-9'>9</button>
+                    <button class='btn' id='purchase-btn'>calculate</button>
+                </div>
+
+                
+                
+            </fieldset>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
